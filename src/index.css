@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 100%;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  max-width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  text-transform: uppercase;
+  outline: none;
+  margin-left: -5px;
+  width: 100px;
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+  border-bottom: none;
+}
+
+li:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+button.deleteAll, button.deleteCompleted {
+  border-color: red;
+  background: red;
+  color: white;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+button.deleteCompleted {
+  border-color: black;
+  color: black;
+  background: transparent;
+}
